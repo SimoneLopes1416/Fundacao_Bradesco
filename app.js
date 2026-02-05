@@ -1,16 +1,15 @@
-'use strict'
+'use strict';
 
 const switcher = document.querySelector('.btn');
 
-switcher.addEventListener('click', function(){
-    document.body.classList.toggle('dark-theme')
+switcher.addEventListener('click', function () {
 
-    var className =  document.body.className;
-    if(className == "light-theme") {
-        this.textContent = "Dark";
+    document.body.classList.toggle('dark-theme');
+
+    if (document.body.classList.contains('dark-theme')) {
+        this.textContent = 'Light';
+    } else {
+        this.textContent = 'Dark';
     }
-    else {
-        this.textContent = "Light";
-    }
-    console.log('current class name:' + className);
+
 });

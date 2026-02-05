@@ -16,14 +16,6 @@ list-style: square;
 
 }
 
-.light-theme {
-
-color: #000000;
-
-background: #00FF00;
-
-}
-
 :root {
     --green: #00ff00;
     --white: #ffffff;
