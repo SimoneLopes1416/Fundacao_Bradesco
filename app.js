@@ -11,5 +11,7 @@ switcher.addEventListener('click', function () {
     } else {
         this.textContent = 'Dark';
     }
-console.log('currente class name:' + className);
+
+    // Atualizado: imprime a classe atual corretamente
+    console.log('current class name: ' + document.body.className);
 });
